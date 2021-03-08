@@ -13,9 +13,19 @@ An orchestra - or any musical group for that matter - can be modeled as a `Set` 
 An orchestra can be created as follows:
 
 ```
-Orchestra twoTrumpetPlayers = Orchestra.ensemble(new Trumpet(true, "Wilco"), new Trumpet(false, "Max"));
-Orchestra twoSingers = Orchestra.ensemble(Vocal.leadSinger("Raymond"), Vocal.backgroundSinger("Daan"));
-Orchestra brassBand = Orchestra.ensemble(new Guitar(true, "Peter"), new Trumpet(true, "Wilco"), Vocal.leadSinger("Raymond"));
+Orchestra twoTrumpetPlayers = Orchestra.ensemble(
+      new Trumpet(true, "Wilco"), 
+      new Trumpet(false, "Max")
+);
+Orchestra twoSingers = Orchestra.ensemble(
+      Vocal.leadSinger("Raymond"), 
+      Vocal.backgroundSinger("Daan")
+);
+Orchestra brassBand = Orchestra.ensemble(
+      new Guitar(true, "Peter"), 
+      new Trumpet(true, "Wilco"), 
+      Vocal.leadSinger("Raymond")
+);
 ```
 
 ## Grouping
@@ -24,10 +34,28 @@ Big orchestras are organized by defining *instrument families*. These `*Family` 
 
 ```
 Orchestra philharmonic = Orchestra.ensemble(
-      InstrumentFamily.ensemble(new Guitar(true, "Peter"), new Guitar(false, "Tom")),
-      InstrumentFamily.ensemble(new Trumpet(true, "Wilco", new Trumpet(true, "Max")),
-      InstrumentFamily.ensemble(new Violin(true, "Topol"), new Violin(false, "André"), new Violin(false, "Henrietta")),
-      InstrumentFamily.ensemble(new Drums(true, "Phil"), new Timpani(true, "Julia"), new Triangle("Smee")),
-      VocalFamily.ensemble(Vocal.leadSinger("Raymond"), Vocal.backgroundSinger("Daan"), Vocal.backgroundSinger("Hannah")
+      InstrumentFamily.ensemble(
+            new Guitar(true, "Peter"), 
+            new Guitar(false, "Tom")
+      ),
+      InstrumentFamily.ensemble(
+            new Trumpet(true, "Wilco"), 
+            new Trumpet(false, "Max")
+      ),
+      InstrumentFamily.ensemble(
+            new Violin(true, "Topol"),
+            new Violin(false, "André"),
+            new Violin(false, "Henrietta")
+      ),
+      InstrumentFamily.ensemble(
+            new Drums(true, "Phil"), 
+            new Timpani(true, "Julia"), 
+            new Triangle("Smee")
+      ),
+      VocalFamily.ensemble(
+            Vocal.leadSinger("Raymond"), 
+            Vocal.backgroundSinger("Daan"), 
+            Vocal.backgroundSinger("Hannah")
+      )
 );
 ```
