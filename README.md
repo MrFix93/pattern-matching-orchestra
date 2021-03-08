@@ -8,6 +8,8 @@ The code in this project focuses on representing data on an *orchestra* and its 
 Every contributing member to the orchestra is modeled as a sub class of the `Musical` abstract class.
 An orchestra - or any musical group for that matter - can be modeled as a `Set` of [Musical](https://github.com/MrFix93/pattern-matching-orchestra/blob/97b54b6c900b44541294041c65cedf0caddaca0e/src/main/java/nl/infosupport/models/Musical.java)`s.
 
+![Class diagram of the example](class-diagram.svg)
+
 ## Factory method `ensemble`
 
 An orchestra can be created as follows:
