@@ -6,13 +6,13 @@ This project exists to provide code examples that accompany the article "Pattern
 
 The code in this project focuses on representing data on an *orchestra* and its *musicians*. 
 Every contributing member to the orchestra is modeled as a sub class of the `Musical` abstract class.
-An orchestra - or any musical group for that matter - can be modeled as a `Set` of `Musical`s.
+An orchestra - or any musical group for that matter - can be modeled as a `Set` of [Musical](https://github.com/MrFix93/pattern-matching-orchestra/blob/97b54b6c900b44541294041c65cedf0caddaca0e/src/main/java/nl/infosupport/models/Musical.java)`s.
 
 ## Factory method `ensemble`
 
 An orchestra can be created as follows:
 
-```
+``` java
 Orchestra twoTrumpetPlayers = Orchestra.ensemble(
       new Trumpet(true, "Wilco"), 
       new Trumpet(false, "Max")
@@ -32,7 +32,7 @@ Orchestra brassBand = Orchestra.ensemble(
 
 Big orchestras are organized by defining *instrument families*. These `*Family` classes are all sub classes of `Musical`.
 
-```
+``` java
 Orchestra philharmonic = Orchestra.ensemble(
       InstrumentFamily.ensemble(
             new Guitar(true, "Peter"), 
