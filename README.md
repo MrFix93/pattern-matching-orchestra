@@ -1,4 +1,4 @@
-# pattern-matching-orchestra
+# Pattern Matching Orchestra examples
 
 This project exists to provide code examples that accompany the article "Pattern Matching maakt Java in de komende jaren nóg krachtiger" that appeared in [Java Magazine](https://nljug.org/java-magazine) #2-2021.
 
