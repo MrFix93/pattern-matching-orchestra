@@ -50,7 +50,7 @@ Orchestra philharmonic = Orchestra.ensemble(
       InstrumentFamily.ensemble(
             new Drums(true, "Phil"), 
             new Timpani(true, "Julia"), 
-            new Triangle("Smee")
+            new Triangle(true, "Smee")
       ),
       VocalFamily.ensemble(
             Vocal.leadSinger("Raymond"), 
