@@ -16,6 +16,7 @@ An orchestra can be created as follows:
 Orchestra twoTrumpetPlayers = Orchestra.ensemble(new Trumpet(true, "Wilco"), new Trumpet(false, "Max"));
 Orchestra twoSingers = Orchestra.ensemble(Vocal.leadSinger("Raymond"), Vocal.backgroundSinger("Daan"));
 Orchestra brassBand = Orchestra.ensemble(new Guitar(true, "Peter"), new Trumpet(true, "Wilco"), Vocal.leadSinger("Raymond"));
+```
 
 ## Grouping
 
