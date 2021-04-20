@@ -1,6 +1,17 @@
 # Pattern Matching Orchestra examples
 
-This project exists to provide code examples that accompany the article "Pattern Matching maakt Java in de komende jaren nóg krachtiger" that appeared in [Java Magazine](https://nljug.org/java-magazine) #2-2021.
+This project exists to provide references and code examples that accompany the article "Pattern Matching maakt Java in de komende jaren nóg krachtiger" that appeared in [Java Magazine](https://nljug.org/java-magazine) #2-2021.
+
+## References
+
+1. https://openjdk.java.net/jeps/305
+2. In dit artikel gebruiken we codevoorbeelden die gaan over een orkest, dat bestaat uit verschillende muzikanten. De code is beschikbaar via https://github.com/MrFix93/pattern-matching-orchestra.
+3. http://openjdk.java.net/jeps/8213076
+4. In dit artikel beschrijven we toekomstige features zoals die beschreven worden in JEP-drafts en de visie van de ontwikkelaars van Java. De exacte invulling kan dus nog wijzigen.
+5. https://openjdk.java.net/jeps/286
+6. https://cr.openjdk.java.net/~briangoetz/amber/serialization.html
+7. “Java 14” (Ivo Woltring) - Java Magazine #2-2020.
+8. “Pattern Matching for Java” (Gavin Bierman, Brian Goetz) - https://cr.openjdk.java.net/~briangoetz/amber/pattern-match.html
 
 ## Premise
 
